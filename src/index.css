@@ -1,0 +1,20 @@
+/* src/App.css or your main css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #fcf9f5;
+  /* border-top: 1px solid #f2ede8; */
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+    /* Optional: Sets the box model for easier layout management */
+    box-sizing: border-box;
+    position: relative; /* Essential for positioning App children */
+  /* height: 100vh; Ensure the body is exactly viewport height */
+  width: 100vw;
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+}
